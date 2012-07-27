@@ -180,35 +180,37 @@
 		2017EDD115C2E1C70004BDDB /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDBD15C2E1C60004BDDB /* HelloWorldLayer.mm */; };
 		2017EDD215C2E1C70004BDDB /* GameplayLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDBF15C2E1C60004BDDB /* GameplayLayer.mm */; };
 		2017EDD315C2E1C70004BDDB /* TableSetup.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDC115C2E1C60004BDDB /* TableSetup.mm */; };
-		2017EDF615C2E22F0004BDDB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDD615C2E22F0004BDDB /* background.png */; };
-		2017EDF715C2E22F0004BDDB /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDD715C2E22F0004BDDB /* ball.png */; };
-		2017EDF815C2E22F0004BDDB /* bumper.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDD815C2E22F0004BDDB /* bumper.png */; };
-		2017EDF915C2E22F0004BDDB /* flipper-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDD915C2E22F0004BDDB /* flipper-left.png */; };
-		2017EDFA15C2E22F0004BDDB /* flipper-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDDA15C2E22F0004BDDB /* flipper-right.png */; };
-		2017EDFB15C2E22F0004BDDB /* pinball.pes in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDDB15C2E22F0004BDDB /* pinball.pes */; };
-		2017EDFC15C2E22F0004BDDB /* pinball.tps in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDDC15C2E22F0004BDDB /* pinball.tps */; };
-		2017EDFD15C2E22F0004BDDB /* plunger.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDDD15C2E22F0004BDDB /* plunger.png */; };
-		2017EDFE15C2E22F0004BDDB /* table-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDDE15C2E22F0004BDDB /* table-bottom.png */; };
-		2017EDFF15C2E22F0004BDDB /* table-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDDF15C2E22F0004BDDB /* table-left.png */; };
-		2017EE0015C2E22F0004BDDB /* table-top.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDE015C2E22F0004BDDB /* table-top.png */; };
-		2017EE0115C2E22F0004BDDB /* pinball-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDE215C2E22F0004BDDB /* pinball-hd.plist */; };
-		2017EE0215C2E22F0004BDDB /* pinball-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDE315C2E22F0004BDDB /* pinball-hd.pvr.ccz */; };
-		2017EE0315C2E22F0004BDDB /* pinball-shapes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDE415C2E22F0004BDDB /* pinball-shapes.plist */; };
-		2017EE0415C2E22F0004BDDB /* pinball.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDE515C2E22F0004BDDB /* pinball.plist */; };
-		2017EE0515C2E22F0004BDDB /* pinball.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDE615C2E22F0004BDDB /* pinball.pvr.ccz */; };
-		2017EE0615C2E22F0004BDDB /* bumper.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDE815C2E22F0004BDDB /* bumper.wav */; };
-		2017EE0715C2E22F0004BDDB /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDEA15C2E22F0004BDDB /* blocks.png */; };
-		2017EE0815C2E22F0004BDDB /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDEB15C2E22F0004BDDB /* Default-Landscape~ipad.png */; };
-		2017EE0915C2E22F0004BDDB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDEC15C2E22F0004BDDB /* Default.png */; };
-		2017EE0A15C2E22F0004BDDB /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDED15C2E22F0004BDDB /* fps_images-hd.png */; };
-		2017EE0B15C2E22F0004BDDB /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDEE15C2E22F0004BDDB /* fps_images-ipadhd.png */; };
-		2017EE0C15C2E22F0004BDDB /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDEF15C2E22F0004BDDB /* fps_images.png */; };
-		2017EE0D15C2E22F0004BDDB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDF015C2E22F0004BDDB /* Icon-72.png */; };
-		2017EE0E15C2E22F0004BDDB /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDF115C2E22F0004BDDB /* Icon-Small-50.png */; };
-		2017EE0F15C2E22F0004BDDB /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDF215C2E22F0004BDDB /* Icon-Small.png */; };
-		2017EE1015C2E22F0004BDDB /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDF315C2E22F0004BDDB /* Icon-Small@2x.png */; };
-		2017EE1115C2E22F0004BDDB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDF415C2E22F0004BDDB /* Icon.png */; };
-		2017EE1215C2E22F0004BDDB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EDF515C2E22F0004BDDB /* Icon@2x.png */; };
+		2017EE3A15C2E7DD0004BDDB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE1A15C2E7DD0004BDDB /* background.png */; };
+		2017EE3B15C2E7DD0004BDDB /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE1B15C2E7DD0004BDDB /* ball.png */; };
+		2017EE3C15C2E7DD0004BDDB /* bumper.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE1C15C2E7DD0004BDDB /* bumper.png */; };
+		2017EE3D15C2E7DD0004BDDB /* flipper-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE1D15C2E7DD0004BDDB /* flipper-left.png */; };
+		2017EE3E15C2E7DD0004BDDB /* flipper-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE1E15C2E7DD0004BDDB /* flipper-right.png */; };
+		2017EE3F15C2E7DD0004BDDB /* pinball.pes in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE1F15C2E7DD0004BDDB /* pinball.pes */; };
+		2017EE4015C2E7DD0004BDDB /* pinball.tps in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2015C2E7DD0004BDDB /* pinball.tps */; };
+		2017EE4115C2E7DD0004BDDB /* plunger.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2115C2E7DD0004BDDB /* plunger.png */; };
+		2017EE4215C2E7DD0004BDDB /* table-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2215C2E7DD0004BDDB /* table-bottom.png */; };
+		2017EE4315C2E7DD0004BDDB /* table-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2315C2E7DD0004BDDB /* table-left.png */; };
+		2017EE4415C2E7DD0004BDDB /* table-top.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2415C2E7DD0004BDDB /* table-top.png */; };
+		2017EE4515C2E7DD0004BDDB /* pinball-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2615C2E7DD0004BDDB /* pinball-hd.plist */; };
+		2017EE4615C2E7DD0004BDDB /* pinball-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2715C2E7DD0004BDDB /* pinball-hd.pvr.ccz */; };
+		2017EE4715C2E7DD0004BDDB /* pinball-shapes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2815C2E7DD0004BDDB /* pinball-shapes.plist */; };
+		2017EE4815C2E7DD0004BDDB /* pinball.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2915C2E7DD0004BDDB /* pinball.plist */; };
+		2017EE4915C2E7DD0004BDDB /* pinball.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2A15C2E7DD0004BDDB /* pinball.pvr.ccz */; };
+		2017EE4A15C2E7DD0004BDDB /* bumper.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2C15C2E7DD0004BDDB /* bumper.wav */; };
+		2017EE4B15C2E7DD0004BDDB /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2E15C2E7DD0004BDDB /* blocks.png */; };
+		2017EE4C15C2E7DD0004BDDB /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE2F15C2E7DD0004BDDB /* Default-Landscape~ipad.png */; };
+		2017EE4D15C2E7DD0004BDDB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE3015C2E7DD0004BDDB /* Default.png */; };
+		2017EE4E15C2E7DD0004BDDB /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE3115C2E7DD0004BDDB /* fps_images-hd.png */; };
+		2017EE4F15C2E7DD0004BDDB /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE3215C2E7DD0004BDDB /* fps_images-ipadhd.png */; };
+		2017EE5015C2E7DD0004BDDB /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE3315C2E7DD0004BDDB /* fps_images.png */; };
+		2017EE5115C2E7DD0004BDDB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE3415C2E7DD0004BDDB /* Icon-72.png */; };
+		2017EE5215C2E7DD0004BDDB /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE3515C2E7DD0004BDDB /* Icon-Small-50.png */; };
+		2017EE5315C2E7DD0004BDDB /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE3615C2E7DD0004BDDB /* Icon-Small.png */; };
+		2017EE5415C2E7DD0004BDDB /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE3715C2E7DD0004BDDB /* Icon-Small@2x.png */; };
+		2017EE5515C2E7DD0004BDDB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE3815C2E7DD0004BDDB /* Icon.png */; };
+		2017EE5615C2E7DD0004BDDB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE3915C2E7DD0004BDDB /* Icon@2x.png */; };
+		2017EE5815C2E9380004BDDB /* TexturePackerFile.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE5715C2E9380004BDDB /* TexturePackerFile.png */; };
+		2017EE5A15C2E94B0004BDDB /* TexturePackerFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE5915C2E94B0004BDDB /* TexturePackerFile.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -584,35 +586,37 @@
 		2017EDBF15C2E1C60004BDDB /* GameplayLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameplayLayer.mm; sourceTree = "<group>"; };
 		2017EDC015C2E1C60004BDDB /* TableSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSetup.h; sourceTree = "<group>"; };
 		2017EDC115C2E1C60004BDDB /* TableSetup.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TableSetup.mm; sourceTree = "<group>"; };
-		2017EDD615C2E22F0004BDDB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		2017EDD715C2E22F0004BDDB /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
-		2017EDD815C2E22F0004BDDB /* bumper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bumper.png; sourceTree = "<group>"; };
-		2017EDD915C2E22F0004BDDB /* flipper-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flipper-left.png"; sourceTree = "<group>"; };
-		2017EDDA15C2E22F0004BDDB /* flipper-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flipper-right.png"; sourceTree = "<group>"; };
-		2017EDDB15C2E22F0004BDDB /* pinball.pes */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball.pes; sourceTree = "<group>"; };
-		2017EDDC15C2E22F0004BDDB /* pinball.tps */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball.tps; sourceTree = "<group>"; };
-		2017EDDD15C2E22F0004BDDB /* plunger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plunger.png; sourceTree = "<group>"; };
-		2017EDDE15C2E22F0004BDDB /* table-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-bottom.png"; sourceTree = "<group>"; };
-		2017EDDF15C2E22F0004BDDB /* table-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-left.png"; sourceTree = "<group>"; };
-		2017EDE015C2E22F0004BDDB /* table-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-top.png"; sourceTree = "<group>"; };
-		2017EDE215C2E22F0004BDDB /* pinball-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pinball-hd.plist"; sourceTree = "<group>"; };
-		2017EDE315C2E22F0004BDDB /* pinball-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pinball-hd.pvr.ccz"; sourceTree = "<group>"; };
-		2017EDE415C2E22F0004BDDB /* pinball-shapes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pinball-shapes.plist"; sourceTree = "<group>"; };
-		2017EDE515C2E22F0004BDDB /* pinball.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pinball.plist; sourceTree = "<group>"; };
-		2017EDE615C2E22F0004BDDB /* pinball.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball.pvr.ccz; sourceTree = "<group>"; };
-		2017EDE815C2E22F0004BDDB /* bumper.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bumper.wav; sourceTree = "<group>"; };
-		2017EDEA15C2E22F0004BDDB /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blocks.png; sourceTree = "<group>"; };
-		2017EDEB15C2E22F0004BDDB /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		2017EDEC15C2E22F0004BDDB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2017EDED15C2E22F0004BDDB /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-hd.png"; sourceTree = "<group>"; };
-		2017EDEE15C2E22F0004BDDB /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-ipadhd.png"; sourceTree = "<group>"; };
-		2017EDEF15C2E22F0004BDDB /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
-		2017EDF015C2E22F0004BDDB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		2017EDF115C2E22F0004BDDB /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
-		2017EDF215C2E22F0004BDDB /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		2017EDF315C2E22F0004BDDB /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		2017EDF415C2E22F0004BDDB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		2017EDF515C2E22F0004BDDB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		2017EE1A15C2E7DD0004BDDB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		2017EE1B15C2E7DD0004BDDB /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		2017EE1C15C2E7DD0004BDDB /* bumper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bumper.png; sourceTree = "<group>"; };
+		2017EE1D15C2E7DD0004BDDB /* flipper-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flipper-left.png"; sourceTree = "<group>"; };
+		2017EE1E15C2E7DD0004BDDB /* flipper-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flipper-right.png"; sourceTree = "<group>"; };
+		2017EE1F15C2E7DD0004BDDB /* pinball.pes */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball.pes; sourceTree = "<group>"; };
+		2017EE2015C2E7DD0004BDDB /* pinball.tps */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball.tps; sourceTree = "<group>"; };
+		2017EE2115C2E7DD0004BDDB /* plunger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plunger.png; sourceTree = "<group>"; };
+		2017EE2215C2E7DD0004BDDB /* table-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-bottom.png"; sourceTree = "<group>"; };
+		2017EE2315C2E7DD0004BDDB /* table-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-left.png"; sourceTree = "<group>"; };
+		2017EE2415C2E7DD0004BDDB /* table-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-top.png"; sourceTree = "<group>"; };
+		2017EE2615C2E7DD0004BDDB /* pinball-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pinball-hd.plist"; sourceTree = "<group>"; };
+		2017EE2715C2E7DD0004BDDB /* pinball-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pinball-hd.pvr.ccz"; sourceTree = "<group>"; };
+		2017EE2815C2E7DD0004BDDB /* pinball-shapes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pinball-shapes.plist"; sourceTree = "<group>"; };
+		2017EE2915C2E7DD0004BDDB /* pinball.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pinball.plist; sourceTree = "<group>"; };
+		2017EE2A15C2E7DD0004BDDB /* pinball.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinball.pvr.ccz; sourceTree = "<group>"; };
+		2017EE2C15C2E7DD0004BDDB /* bumper.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bumper.wav; sourceTree = "<group>"; };
+		2017EE2E15C2E7DD0004BDDB /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blocks.png; sourceTree = "<group>"; };
+		2017EE2F15C2E7DD0004BDDB /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		2017EE3015C2E7DD0004BDDB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2017EE3115C2E7DD0004BDDB /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-hd.png"; sourceTree = "<group>"; };
+		2017EE3215C2E7DD0004BDDB /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-ipadhd.png"; sourceTree = "<group>"; };
+		2017EE3315C2E7DD0004BDDB /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
+		2017EE3415C2E7DD0004BDDB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		2017EE3515C2E7DD0004BDDB /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		2017EE3615C2E7DD0004BDDB /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		2017EE3715C2E7DD0004BDDB /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		2017EE3815C2E7DD0004BDDB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2017EE3915C2E7DD0004BDDB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		2017EE5715C2E9380004BDDB /* TexturePackerFile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TexturePackerFile.png; sourceTree = "<group>"; };
+		2017EE5915C2E94B0004BDDB /* TexturePackerFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TexturePackerFile.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -682,8 +686,8 @@
 		2017EB7815C2E1890004BDDB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2017EDD415C2E22F0004BDDB /* Assets */,
-				2017EDE915C2E22F0004BDDB /* Misc */,
+				2017EE1815C2E7DD0004BDDB /* Assets */,
+				2017EE2D15C2E7DD0004BDDB /* Misc */,
 				2017EB8F15C2E1890004BDDB /* Info.plist */,
 				2017EB9015C2E1890004BDDB /* iTunesArtwork */,
 			);
@@ -1311,71 +1315,75 @@
 			path = Setup;
 			sourceTree = "<group>";
 		};
-		2017EDD415C2E22F0004BDDB /* Assets */ = {
+		2017EE1815C2E7DD0004BDDB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				2017EDD515C2E22F0004BDDB /* Images */,
-				2017EDE115C2E22F0004BDDB /* Plists */,
-				2017EDE715C2E22F0004BDDB /* Sounds */,
+				2017EE1915C2E7DD0004BDDB /* Images */,
+				2017EE2515C2E7DD0004BDDB /* Plists */,
+				2017EE2B15C2E7DD0004BDDB /* Sounds */,
 			);
-			path = Assets;
+			name = Assets;
+			path = Resources/Assets;
 			sourceTree = "<group>";
 		};
-		2017EDD515C2E22F0004BDDB /* Images */ = {
+		2017EE1915C2E7DD0004BDDB /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				2017EDD615C2E22F0004BDDB /* background.png */,
-				2017EDD715C2E22F0004BDDB /* ball.png */,
-				2017EDD815C2E22F0004BDDB /* bumper.png */,
-				2017EDD915C2E22F0004BDDB /* flipper-left.png */,
-				2017EDDA15C2E22F0004BDDB /* flipper-right.png */,
-				2017EDDB15C2E22F0004BDDB /* pinball.pes */,
-				2017EDDC15C2E22F0004BDDB /* pinball.tps */,
-				2017EDDD15C2E22F0004BDDB /* plunger.png */,
-				2017EDDE15C2E22F0004BDDB /* table-bottom.png */,
-				2017EDDF15C2E22F0004BDDB /* table-left.png */,
-				2017EDE015C2E22F0004BDDB /* table-top.png */,
+				2017EE5715C2E9380004BDDB /* TexturePackerFile.png */,
+				2017EE1A15C2E7DD0004BDDB /* background.png */,
+				2017EE1B15C2E7DD0004BDDB /* ball.png */,
+				2017EE1C15C2E7DD0004BDDB /* bumper.png */,
+				2017EE1D15C2E7DD0004BDDB /* flipper-left.png */,
+				2017EE1E15C2E7DD0004BDDB /* flipper-right.png */,
+				2017EE1F15C2E7DD0004BDDB /* pinball.pes */,
+				2017EE2015C2E7DD0004BDDB /* pinball.tps */,
+				2017EE2115C2E7DD0004BDDB /* plunger.png */,
+				2017EE2215C2E7DD0004BDDB /* table-bottom.png */,
+				2017EE2315C2E7DD0004BDDB /* table-left.png */,
+				2017EE2415C2E7DD0004BDDB /* table-top.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
 		};
-		2017EDE115C2E22F0004BDDB /* Plists */ = {
+		2017EE2515C2E7DD0004BDDB /* Plists */ = {
 			isa = PBXGroup;
 			children = (
-				2017EDE215C2E22F0004BDDB /* pinball-hd.plist */,
-				2017EDE315C2E22F0004BDDB /* pinball-hd.pvr.ccz */,
-				2017EDE415C2E22F0004BDDB /* pinball-shapes.plist */,
-				2017EDE515C2E22F0004BDDB /* pinball.plist */,
-				2017EDE615C2E22F0004BDDB /* pinball.pvr.ccz */,
+				2017EE5915C2E94B0004BDDB /* TexturePackerFile.plist */,
+				2017EE2615C2E7DD0004BDDB /* pinball-hd.plist */,
+				2017EE2715C2E7DD0004BDDB /* pinball-hd.pvr.ccz */,
+				2017EE2815C2E7DD0004BDDB /* pinball-shapes.plist */,
+				2017EE2915C2E7DD0004BDDB /* pinball.plist */,
+				2017EE2A15C2E7DD0004BDDB /* pinball.pvr.ccz */,
 			);
 			path = Plists;
 			sourceTree = "<group>";
 		};
-		2017EDE715C2E22F0004BDDB /* Sounds */ = {
+		2017EE2B15C2E7DD0004BDDB /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				2017EDE815C2E22F0004BDDB /* bumper.wav */,
+				2017EE2C15C2E7DD0004BDDB /* bumper.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		2017EDE915C2E22F0004BDDB /* Misc */ = {
+		2017EE2D15C2E7DD0004BDDB /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				2017EDEA15C2E22F0004BDDB /* blocks.png */,
-				2017EDEB15C2E22F0004BDDB /* Default-Landscape~ipad.png */,
-				2017EDEC15C2E22F0004BDDB /* Default.png */,
-				2017EDED15C2E22F0004BDDB /* fps_images-hd.png */,
-				2017EDEE15C2E22F0004BDDB /* fps_images-ipadhd.png */,
-				2017EDEF15C2E22F0004BDDB /* fps_images.png */,
-				2017EDF015C2E22F0004BDDB /* Icon-72.png */,
-				2017EDF115C2E22F0004BDDB /* Icon-Small-50.png */,
-				2017EDF215C2E22F0004BDDB /* Icon-Small.png */,
-				2017EDF315C2E22F0004BDDB /* Icon-Small@2x.png */,
-				2017EDF415C2E22F0004BDDB /* Icon.png */,
-				2017EDF515C2E22F0004BDDB /* Icon@2x.png */,
+				2017EE2E15C2E7DD0004BDDB /* blocks.png */,
+				2017EE2F15C2E7DD0004BDDB /* Default-Landscape~ipad.png */,
+				2017EE3015C2E7DD0004BDDB /* Default.png */,
+				2017EE3115C2E7DD0004BDDB /* fps_images-hd.png */,
+				2017EE3215C2E7DD0004BDDB /* fps_images-ipadhd.png */,
+				2017EE3315C2E7DD0004BDDB /* fps_images.png */,
+				2017EE3415C2E7DD0004BDDB /* Icon-72.png */,
+				2017EE3515C2E7DD0004BDDB /* Icon-Small-50.png */,
+				2017EE3615C2E7DD0004BDDB /* Icon-Small.png */,
+				2017EE3715C2E7DD0004BDDB /* Icon-Small@2x.png */,
+				2017EE3815C2E7DD0004BDDB /* Icon.png */,
+				2017EE3915C2E7DD0004BDDB /* Icon@2x.png */,
 			);
-			path = Misc;
+			name = Misc;
+			path = Resources/Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1431,35 +1439,37 @@
 			files = (
 				2017EB9115C2E1890004BDDB /* iTunesArtwork in Resources */,
 				2017ECCF15C2E18D0004BDDB /* ChangeLog in Resources */,
-				2017EDF615C2E22F0004BDDB /* background.png in Resources */,
-				2017EDF715C2E22F0004BDDB /* ball.png in Resources */,
-				2017EDF815C2E22F0004BDDB /* bumper.png in Resources */,
-				2017EDF915C2E22F0004BDDB /* flipper-left.png in Resources */,
-				2017EDFA15C2E22F0004BDDB /* flipper-right.png in Resources */,
-				2017EDFB15C2E22F0004BDDB /* pinball.pes in Resources */,
-				2017EDFC15C2E22F0004BDDB /* pinball.tps in Resources */,
-				2017EDFD15C2E22F0004BDDB /* plunger.png in Resources */,
-				2017EDFE15C2E22F0004BDDB /* table-bottom.png in Resources */,
-				2017EDFF15C2E22F0004BDDB /* table-left.png in Resources */,
-				2017EE0015C2E22F0004BDDB /* table-top.png in Resources */,
-				2017EE0115C2E22F0004BDDB /* pinball-hd.plist in Resources */,
-				2017EE0215C2E22F0004BDDB /* pinball-hd.pvr.ccz in Resources */,
-				2017EE0315C2E22F0004BDDB /* pinball-shapes.plist in Resources */,
-				2017EE0415C2E22F0004BDDB /* pinball.plist in Resources */,
-				2017EE0515C2E22F0004BDDB /* pinball.pvr.ccz in Resources */,
-				2017EE0615C2E22F0004BDDB /* bumper.wav in Resources */,
-				2017EE0715C2E22F0004BDDB /* blocks.png in Resources */,
-				2017EE0815C2E22F0004BDDB /* Default-Landscape~ipad.png in Resources */,
-				2017EE0915C2E22F0004BDDB /* Default.png in Resources */,
-				2017EE0A15C2E22F0004BDDB /* fps_images-hd.png in Resources */,
-				2017EE0B15C2E22F0004BDDB /* fps_images-ipadhd.png in Resources */,
-				2017EE0C15C2E22F0004BDDB /* fps_images.png in Resources */,
-				2017EE0D15C2E22F0004BDDB /* Icon-72.png in Resources */,
-				2017EE0E15C2E22F0004BDDB /* Icon-Small-50.png in Resources */,
-				2017EE0F15C2E22F0004BDDB /* Icon-Small.png in Resources */,
-				2017EE1015C2E22F0004BDDB /* Icon-Small@2x.png in Resources */,
-				2017EE1115C2E22F0004BDDB /* Icon.png in Resources */,
-				2017EE1215C2E22F0004BDDB /* Icon@2x.png in Resources */,
+				2017EE3A15C2E7DD0004BDDB /* background.png in Resources */,
+				2017EE3B15C2E7DD0004BDDB /* ball.png in Resources */,
+				2017EE3C15C2E7DD0004BDDB /* bumper.png in Resources */,
+				2017EE3D15C2E7DD0004BDDB /* flipper-left.png in Resources */,
+				2017EE3E15C2E7DD0004BDDB /* flipper-right.png in Resources */,
+				2017EE3F15C2E7DD0004BDDB /* pinball.pes in Resources */,
+				2017EE4015C2E7DD0004BDDB /* pinball.tps in Resources */,
+				2017EE4115C2E7DD0004BDDB /* plunger.png in Resources */,
+				2017EE4215C2E7DD0004BDDB /* table-bottom.png in Resources */,
+				2017EE4315C2E7DD0004BDDB /* table-left.png in Resources */,
+				2017EE4415C2E7DD0004BDDB /* table-top.png in Resources */,
+				2017EE4515C2E7DD0004BDDB /* pinball-hd.plist in Resources */,
+				2017EE4615C2E7DD0004BDDB /* pinball-hd.pvr.ccz in Resources */,
+				2017EE4715C2E7DD0004BDDB /* pinball-shapes.plist in Resources */,
+				2017EE4815C2E7DD0004BDDB /* pinball.plist in Resources */,
+				2017EE4915C2E7DD0004BDDB /* pinball.pvr.ccz in Resources */,
+				2017EE4A15C2E7DD0004BDDB /* bumper.wav in Resources */,
+				2017EE4B15C2E7DD0004BDDB /* blocks.png in Resources */,
+				2017EE4C15C2E7DD0004BDDB /* Default-Landscape~ipad.png in Resources */,
+				2017EE4D15C2E7DD0004BDDB /* Default.png in Resources */,
+				2017EE4E15C2E7DD0004BDDB /* fps_images-hd.png in Resources */,
+				2017EE4F15C2E7DD0004BDDB /* fps_images-ipadhd.png in Resources */,
+				2017EE5015C2E7DD0004BDDB /* fps_images.png in Resources */,
+				2017EE5115C2E7DD0004BDDB /* Icon-72.png in Resources */,
+				2017EE5215C2E7DD0004BDDB /* Icon-Small-50.png in Resources */,
+				2017EE5315C2E7DD0004BDDB /* Icon-Small.png in Resources */,
+				2017EE5415C2E7DD0004BDDB /* Icon-Small@2x.png in Resources */,
+				2017EE5515C2E7DD0004BDDB /* Icon.png in Resources */,
+				2017EE5615C2E7DD0004BDDB /* Icon@2x.png in Resources */,
+				2017EE5815C2E9380004BDDB /* TexturePackerFile.png in Resources */,
+				2017EE5A15C2E94B0004BDDB /* TexturePackerFile.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1737,6 +1747,7 @@
 				2017ED9715C2E18E0004BDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

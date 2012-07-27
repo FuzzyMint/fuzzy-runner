@@ -28,6 +28,7 @@
 {
 	if ((self = [super initWithFile:@"pinball.pvr.ccz" capacity:5]))
 	{		
+        /*
         // add the table blocks
         [self addChild:[TablePart tablePartInWorld:world
 										  position:ccp(0, 480)
@@ -53,12 +54,13 @@
 		// side lane protection bumpers
 		[self addBumperAt:ccp(0, 125) inWorld:world];
 		[self addBumperAt:ccp(265, 150) inWorld:world];
-		[self addBumperAt:ccp(27, 244) inWorld:world];
+		[self addBumperAt:ccp(27, 244) inWorld:world];*/
 
         // Add ball object
 		Ball* ball = [Ball ballWithWorld:world];
 		[self addChild:ball z:-1];
 		
+        /*
         // Add flippers
         Flipper *left = [Flipper flipperWithWorld:world flipperType:kFlipperLeft];
         [self addChild:left];
@@ -68,7 +70,7 @@
         
         // Add plunger
         Plunger *plunger = [Plunger plungerWithWorld:world];
-        [self addChild:plunger z:-1];
+        [self addChild:plunger z:-1];*/
         
     }
 	

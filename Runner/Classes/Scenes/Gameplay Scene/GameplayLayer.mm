@@ -55,13 +55,13 @@
 		[self initBox2dWorld];
 
         // debug drawing
-		//[self enableBox2dDebugDrawing];
+		[self enableBox2dDebugDrawing];
 
 		// load the background from the texture atlas
         CCSprite *background = [CCSprite spriteWithSpriteFrameName:@"background"];
         background.anchorPoint = ccp(0,0);
         background.position = ccp(0,0);
-		[self addChild:background z:-3];
+		//[self addChild:background z:-3];
 
 		// Set up table elements
 		TableSetup* tableSetup = [TableSetup setupTableWithWorld:world];
@@ -122,9 +122,9 @@
 
 	// We only need the sides for the table:
 	// left side
-	screenBoxShape.Set(upperLeftCorner, lowerLeftCorner);
-	b2Fixture *left = containerBody->CreateFixture(&screenBoxShape, density);
-	
+	screenBoxShape.Set(lowerLeftCorner, lowerRightCorner);
+	b2Fixture *ground = containerBody->CreateFixture(&screenBoxShape, density);
+	/*
 	// right side
 	screenBoxShape.Set(upperRightCorner, lowerRightCorner);
 	b2Fixture *right = containerBody->CreateFixture(&screenBoxShape, density);
@@ -136,7 +136,7 @@
     collisonFilter.maskBits = 0x0001;     // mask = Ball
 
     left->SetFilterData(collisonFilter);
-    right->SetFilterData(collisonFilter);
+    right->SetFilterData(collisonFilter);*/
 }
 
 -(void) enableBox2dDebugDrawing
