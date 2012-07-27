@@ -1,15 +1,15 @@
 //
 //  IntroLayer.m
-//  Runner
+//  Box2DProject
 //
-//  Created by Yusuf Sobh on 7/27/12.
+//  Created by Yusuf Sobh on 7/26/12.
 //  Copyright TwoPlusOne 2012. All rights reserved.
 //
 
 
 // Import the interfaces
 #import "IntroLayer.h"
-#import "HelloWorldLayer.h"
+#import "GameplayLayer.h"
 
 
 #pragma mark - IntroLayer
@@ -60,6 +60,6 @@
 
 -(void) makeTransition:(ccTime)dt
 {
-	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[HelloWorldLayer scene] withColor:ccWHITE]];
+	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[GameplayLayer scene] withColor:ccWHITE]];
 }
 @end

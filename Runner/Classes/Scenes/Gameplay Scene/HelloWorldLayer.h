@@ -1,8 +1,8 @@
 //
 //  HelloWorldLayer.h
-//  Runner
+//  Box2DProject
 //
-//  Created by Yusuf Sobh on 7/27/12.
+//  Created by Yusuf Sobh on 7/26/12.
 //  Copyright TwoPlusOne 2012. All rights reserved.
 //
 
