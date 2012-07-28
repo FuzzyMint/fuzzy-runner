@@ -12,7 +12,6 @@
 #import "GameplayLayer.h"
 #import "Constants.h"
 #import "Helper.h"
-#import "TableSetup.h"
 #import "GB2ShapeCache.h"
 #import "b2PolygonShape.h"
 #import "b2Math.h"

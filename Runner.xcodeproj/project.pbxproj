@@ -165,7 +165,6 @@
 		2017ED7B15C2E18E0004BDDB /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2017ED7A15C2E18E0004BDDB /* b2Rope.cpp */; };
 		2017ED8115C2E18E0004BDDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2017ED8015C2E18E0004BDDB /* main.m */; };
 		2017EDC415C2E1C60004BDDB /* BodyNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017ED9B15C2E1C60004BDDB /* BodyNode.mm */; };
-		2017EDC515C2E1C60004BDDB /* PhysicsSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017ED9D15C2E1C60004BDDB /* PhysicsSprite.mm */; };
 		2017EDC615C2E1C60004BDDB /* Ball.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDA015C2E1C60004BDDB /* Ball.mm */; };
 		2017EDC715C2E1C60004BDDB /* Bumper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDA215C2E1C60004BDDB /* Bumper.mm */; };
 		2017EDC815C2E1C60004BDDB /* Flipper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDA415C2E1C60004BDDB /* Flipper.mm */; };
@@ -177,9 +176,7 @@
 		2017EDCE15C2E1C60004BDDB /* IntroLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDB215C2E1C60004BDDB /* IntroLayer.mm */; };
 		2017EDCF15C2E1C60004BDDB /* Helper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDB615C2E1C60004BDDB /* Helper.mm */; };
 		2017EDD015C2E1C60004BDDB /* GB2ShapeCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDB915C2E1C60004BDDB /* GB2ShapeCache.mm */; };
-		2017EDD115C2E1C70004BDDB /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDBD15C2E1C60004BDDB /* HelloWorldLayer.mm */; };
 		2017EDD215C2E1C70004BDDB /* GameplayLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDBF15C2E1C60004BDDB /* GameplayLayer.mm */; };
-		2017EDD315C2E1C70004BDDB /* TableSetup.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2017EDC115C2E1C60004BDDB /* TableSetup.mm */; };
 		2017EE3A15C2E7DD0004BDDB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE1A15C2E7DD0004BDDB /* background.png */; };
 		2017EE3B15C2E7DD0004BDDB /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE1B15C2E7DD0004BDDB /* ball.png */; };
 		2017EE3C15C2E7DD0004BDDB /* bumper.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017EE1C15C2E7DD0004BDDB /* bumper.png */; };
@@ -566,8 +563,6 @@
 		2017ED8015C2E18E0004BDDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2017ED9A15C2E1C60004BDDB /* BodyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyNode.h; sourceTree = "<group>"; };
 		2017ED9B15C2E1C60004BDDB /* BodyNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BodyNode.mm; sourceTree = "<group>"; };
-		2017ED9C15C2E1C60004BDDB /* PhysicsSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsSprite.h; sourceTree = "<group>"; };
-		2017ED9D15C2E1C60004BDDB /* PhysicsSprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PhysicsSprite.mm; sourceTree = "<group>"; };
 		2017ED9F15C2E1C60004BDDB /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
 		2017EDA015C2E1C60004BDDB /* Ball.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Ball.mm; sourceTree = "<group>"; };
 		2017EDA115C2E1C60004BDDB /* Bumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bumper.h; sourceTree = "<group>"; };
@@ -591,12 +586,8 @@
 		2017EDB615C2E1C60004BDDB /* Helper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Helper.mm; sourceTree = "<group>"; };
 		2017EDB815C2E1C60004BDDB /* GB2ShapeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GB2ShapeCache.h; sourceTree = "<group>"; };
 		2017EDB915C2E1C60004BDDB /* GB2ShapeCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GB2ShapeCache.mm; sourceTree = "<group>"; };
-		2017EDBC15C2E1C60004BDDB /* HelloWorldLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		2017EDBD15C2E1C60004BDDB /* HelloWorldLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
 		2017EDBE15C2E1C60004BDDB /* GameplayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameplayLayer.h; sourceTree = "<group>"; };
 		2017EDBF15C2E1C60004BDDB /* GameplayLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameplayLayer.mm; sourceTree = "<group>"; };
-		2017EDC015C2E1C60004BDDB /* TableSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSetup.h; sourceTree = "<group>"; };
-		2017EDC115C2E1C60004BDDB /* TableSetup.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TableSetup.mm; sourceTree = "<group>"; };
 		2017EE1A15C2E7DD0004BDDB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		2017EE1B15C2E7DD0004BDDB /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		2017EE1C15C2E7DD0004BDDB /* bumper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bumper.png; sourceTree = "<group>"; };
@@ -1239,8 +1230,6 @@
 			children = (
 				2017ED9A15C2E1C60004BDDB /* BodyNode.h */,
 				2017ED9B15C2E1C60004BDDB /* BodyNode.mm */,
-				2017ED9C15C2E1C60004BDDB /* PhysicsSprite.h */,
-				2017ED9D15C2E1C60004BDDB /* PhysicsSprite.mm */,
 			);
 			path = "Abstract Classes";
 			sourceTree = "<group>";
@@ -1320,12 +1309,8 @@
 		2017EDBB15C2E1C60004BDDB /* Gameplay Scene */ = {
 			isa = PBXGroup;
 			children = (
-				2017EDBC15C2E1C60004BDDB /* HelloWorldLayer.h */,
-				2017EDBD15C2E1C60004BDDB /* HelloWorldLayer.mm */,
 				2017EDBE15C2E1C60004BDDB /* GameplayLayer.h */,
 				2017EDBF15C2E1C60004BDDB /* GameplayLayer.mm */,
-				2017EDC015C2E1C60004BDDB /* TableSetup.h */,
-				2017EDC115C2E1C60004BDDB /* TableSetup.mm */,
 			);
 			path = "Gameplay Scene";
 			sourceTree = "<group>";
@@ -1681,7 +1666,6 @@
 				2017ED7B15C2E18E0004BDDB /* b2Rope.cpp in Sources */,
 				2017ED8115C2E18E0004BDDB /* main.m in Sources */,
 				2017EDC415C2E1C60004BDDB /* BodyNode.mm in Sources */,
-				2017EDC515C2E1C60004BDDB /* PhysicsSprite.mm in Sources */,
 				2017EDC615C2E1C60004BDDB /* Ball.mm in Sources */,
 				2017EDC715C2E1C60004BDDB /* Bumper.mm in Sources */,
 				2017EDC815C2E1C60004BDDB /* Flipper.mm in Sources */,
@@ -1693,9 +1677,7 @@
 				2017EDCE15C2E1C60004BDDB /* IntroLayer.mm in Sources */,
 				2017EDCF15C2E1C60004BDDB /* Helper.mm in Sources */,
 				2017EDD015C2E1C60004BDDB /* GB2ShapeCache.mm in Sources */,
-				2017EDD115C2E1C70004BDDB /* HelloWorldLayer.mm in Sources */,
 				2017EDD215C2E1C70004BDDB /* GameplayLayer.mm in Sources */,
-				2017EDD315C2E1C70004BDDB /* TableSetup.mm in Sources */,
 				2017EE5D15C2EAC50004BDDB /* Player.mm in Sources */,
 				20D4A87215C43DFE004A73A8 /* Platform.mm in Sources */,
 			);

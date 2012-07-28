@@ -12,11 +12,13 @@
 
 -(id) initWithWorld:(b2World*)world
 {
-    b2Vec2 platformStart = b2Vec2(0, 0);
-	b2Vec2 platformEnd = b2Vec2(100, 0);
+    CGSize size = [[CCDirector sharedDirector] winSize];
     
-    b2EdgeShape screenBoxShape;
-	screenBoxShape.Set(platformStart, platformEnd);
+    b2Vec2 platformStart = b2Vec2(0, 0);
+	b2Vec2 platformEnd = b2Vec2(4, 0);
+    
+    b2PolygonShape screenBoxShape;
+    screenBoxShape.SetAsBox(1000 / PTM_RATIO, 20 / PTM_RATIO);
     
 	if ((self = [super initWithWorld:world]))
 	{
@@ -31,8 +33,12 @@
          collisonFilter.categoryBits = 0x0002; // category = Map Objects
          collisonFilter.maskBits = 0x0001 | 0x0002;     // mask = Player and Map Objects (including self?! Make separate category later if I want overlapping ground pieces)
          
-         ground->SetFilterData(collisonFilter);
-         
+        ground->SetFilterData(collisonFilter);
+                
+        body->SetTransform(b2Vec2(105 / PTM_RATIO, 10 / PTM_RATIO), 0);
+        
+        [self scheduleUpdate];
+        
 	}
 	return self;
 }
@@ -46,5 +52,10 @@
 {
     [super dealloc];
 }
+
+-(void) update:(ccTime)delta
+{
+    self.body->SetTransform(b2Vec2(body->GetPosition().x - 5.00 * delta,0), 0);
+}       
         
 @end

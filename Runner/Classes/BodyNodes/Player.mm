@@ -9,7 +9,7 @@
 #import "Player.h"
 #import "SimpleAudioEngine.h"
 
-#define kJumpStrength 28
+#define kJumpStrength 160
 
 @implementation Player
 
@@ -24,6 +24,9 @@
         // enable continuous collision detection
         body->SetBullet(true);
         
+        body->SetGravityScale(2.0);
+
+        body->SetLinearVelocity(b2Vec2(4.0,0));
         
         // set random starting point
         [self setBallStartPosition];
@@ -63,10 +66,11 @@
 
 -(void) update:(ccTime)delta
 {
+    
     if(jumpInProgress) {
-        [self applyJumpForce];        
+        [self applyJumpForce];  
     }
-	
+    
 	if (self.position.y < -(self.contentSize.height * 10))
 	{
 		// restart at a random position
@@ -74,9 +78,15 @@
 	}
 }
 
+- (void)applyRunForce
+{
+	//body->ApplyForce(b2Vec2(20.0,0), body->GetWorldCenter());
+}
+
 - (void)applyJumpForce
 {
-    jumpStrength -= 2;
+    CCLOG(@"%f",body->GetMass());
+    jumpStrength -= jumpStrength/12;
     if(jumpStrength <= 0) {
         jumpStrength = 0;
         jumpInProgress = NO;
