@@ -8,24 +8,25 @@
 
 #import "Platform.h"
 
+
 @implementation Platform
 
--(id) initWithWorld:(b2World*)world
-{
-    CGSize size = [[CCDirector sharedDirector] winSize];
-    
+@synthesize width = _width;
+
+-(id) initWithWorld:(b2World*)world position:(CGPoint)pos
+{    
     b2Vec2 platformStart = b2Vec2(0, 0);
 	b2Vec2 platformEnd = b2Vec2(4, 0);
     
+    _width = 600;
     b2PolygonShape screenBoxShape;
-    screenBoxShape.SetAsBox(1000 / PTM_RATIO, 20 / PTM_RATIO);
+    screenBoxShape.SetAsBox(_width / PTM_RATIO, 20 / PTM_RATIO);
     
-	if ((self = [super initWithWorld:world]))
+	if ((self = [super initWithWorld:world andTexture:@"bricks.jpg" width:_width height:20]))
 	{
         float density = 0.0;
         
         // set the parameters
-        body->SetType(b2_staticBody);
         b2Fixture *ground = body->CreateFixture(&screenBoxShape, density);
         
         b2Filter collisonFilter;
@@ -35,17 +36,19 @@
          
         ground->SetFilterData(collisonFilter);
                 
-        body->SetTransform(b2Vec2(105 / PTM_RATIO, 10 / PTM_RATIO), 0);
+        body->SetTransform([Helper toMeters:pos], 0);
         
+        body->SetType(b2_staticBody);
+
         [self scheduleUpdate];
         
 	}
 	return self;
 }
 
-+(id) platformWithWorld:(b2World*)world
++(id) platformWithWorld:(b2World*)world position:(CGPoint)pos
 {
-    return [[[self alloc] initWithWorld:world] autorelease];
+	return [[[self alloc] initWithWorld:world position:pos] autorelease];
 }
         
 -(void) dealloc
@@ -55,7 +58,7 @@
 
 -(void) update:(ccTime)delta
 {
-    self.body->SetTransform(b2Vec2(body->GetPosition().x - 5.00 * delta,0), 0);
+    //self.body->SetTransform(b2Vec2(body->GetPosition().x - 5.00 * delta,body->GetPosition().y), 0);
 }       
         
 @end

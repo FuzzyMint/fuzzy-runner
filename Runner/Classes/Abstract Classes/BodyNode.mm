@@ -43,16 +43,19 @@
     return self;
 }
 
--(id) initWithWorld:(b2World*)world
+-(id) initWithWorld:(b2World*)world andTexture:(NSString *)texture width:(float)width height:(float)height
 {
     NSAssert(world != NULL, @"world is null!");
     //NSAssert(frameName != nil, @"name is nil!");
     
-    //CCSpriteFrameCache *frameCache = [CCSpriteFrameCache sharedSpriteFrameCache];
-   // CCSpriteFrame *frame = [frameCache spriteFrameByName:frameName];
-   // self = [super initWithSpriteFrame:frame];
+    /*CCSpriteFrameCache *frameCache = [CCSpriteFrameCache sharedSpriteFrameCache];
+    CCSpriteFrame *frame = [frameCache spriteFrameByName:texture];
+    self = [super initWithSpriteFrame:frame];*/
     
-    self = [super init];
+    self = [super initWithFile:texture];
+    ccTexParams params = {GL_LINEAR,GL_LINEAR,GL_REPEAT,GL_REPEAT};
+    [self.texture setTexParameters:&params];
+    [self setTextureRect: CGRectMake(0.0, 0.0, width * 2, height * 2)];
     
     if (self)
     {        

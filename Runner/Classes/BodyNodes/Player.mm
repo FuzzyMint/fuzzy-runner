@@ -26,7 +26,8 @@
         
         body->SetGravityScale(2.0);
 
-        body->SetLinearVelocity(b2Vec2(4.0,0));
+        //body->SetLinearVelocity(b2Vec2(4.0,0));
+        [self applyRunForce];
         
         // set random starting point
         [self setBallStartPosition];
@@ -57,7 +58,7 @@
 {
     // set the ball's position
     float randomOffset = CCRANDOM_0_1() * 10.0f - 5.0f;
-    CGPoint startPos = CGPointMake(100 + randomOffset, 100);
+    CGPoint startPos = CGPointMake(100 + randomOffset, 200);
     
     body->SetTransform([Helper toMeters:startPos], 0.0f);    
     body->SetLinearVelocity(b2Vec2_zero);
@@ -66,6 +67,7 @@
 
 -(void) update:(ccTime)delta
 {
+    [self applyRunForce];
     
     if(jumpInProgress) {
         [self applyJumpForce];  
@@ -80,12 +82,11 @@
 
 - (void)applyRunForce
 {
-	//body->ApplyForce(b2Vec2(20.0,0), body->GetWorldCenter());
+	body->ApplyForce(b2Vec2(1.0,0), body->GetWorldCenter());
 }
 
 - (void)applyJumpForce
-{
-    CCLOG(@"%f",body->GetMass());
+{    
     jumpStrength -= jumpStrength/12;
     if(jumpStrength <= 0) {
         jumpStrength = 0;

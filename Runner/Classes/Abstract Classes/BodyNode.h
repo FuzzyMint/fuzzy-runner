@@ -45,7 +45,11 @@
 Creates a body for you to use and define a shape with
 */
  
--(id) initWithWorld:(b2World*)world;
+//-(id) initWithWorld:(b2World*)world;
+
+//-(id) initWithWorld:(b2World*)world andTexture:(NSString *)texture;
+
+-(id) initWithWorld:(b2World*)world andTexture:(NSString *)texture width:(float)width height:(float)height;
 
 
 @end

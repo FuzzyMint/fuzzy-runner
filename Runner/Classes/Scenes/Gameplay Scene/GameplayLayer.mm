@@ -22,6 +22,7 @@
 #import "SimpleAudioEngine.h"
 
 #import "Player.h"
+#import "Platforms.h"
 #import "Platform.h"
 
 @interface GameplayLayer (PrivateMethods)
@@ -69,8 +70,13 @@
         Player* player = [Player playerWithWorld:world];
 		[self addChild:player z:-1];
         
-        Platform* platform = [Platform platformWithWorld:world];
-        [self addChild:platform z:0];
+        Platform* platform = [Platform platformWithWorld:world position:ccp(-260, 80)];
+        [self addChild:platform];
+        
+        //[self addChild:[Platform platformWithWorld:world position:ccp(1200, 80)]];
+
+        
+        //[self addChild:[Platforms setupPlatformsWithWorld:world] z:0];
         
 		//TableSetup* tableSetup = [TableSetup setupTableWithWorld:world];
 		//[self addChild:tableSetup z:-1];

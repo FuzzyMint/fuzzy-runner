@@ -10,7 +10,9 @@
 
 @interface Platform : BodyNode
 
-+ (id) platformWithWorld:(b2World*)world;
++ (id) platformWithWorld:(b2World*)world position:(CGPoint)pos;
+
+@property (nonatomic, readonly) CGFloat width;
 
 @end
 

@@ -7,20 +7,7 @@
             <key>GreenBlock</key>
             <dict>
                 <key>frame</key>
-                <string>{{28,2},{24,8}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{24,8}}</string>
-                <key>sourceSize</key>
-                <string>{24,8}</string>
-            </dict>
-            <key>blue_block</key>
-            <dict>
-                <key>frame</key>
-                <string>{{54,2},{24,8}}</string>
+                <string>{{2,158},{24,8}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -30,10 +17,36 @@
                 <key>sourceSize</key>
                 <string>{24,8}</string>
             </dict>
+            <key>blue_block</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,184},{24,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,8}}</string>
+                <key>sourceSize</key>
+                <string>{24,8}</string>
+            </dict>
+            <key>bricks</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{128,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{128,128}}</string>
+                <key>sourceSize</key>
+                <string>{128,128}</string>
+            </dict>
             <key>player_run_1</key>
             <dict>
                 <key>frame</key>
-                <string>{{37,46},{16,16}}</string>
+                <string>{{12,168},{16,16}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -46,7 +59,7 @@
             <key>player_run_2</key>
             <dict>
                 <key>frame</key>
-                <string>{{19,30},{16,16}}</string>
+                <string>{{12,150},{16,16}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -59,7 +72,7 @@
             <key>player_run_3</key>
             <dict>
                 <key>frame</key>
-                <string>{{37,28},{16,16}}</string>
+                <string>{{12,132},{16,16}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -72,7 +85,7 @@
             <key>player_run_4</key>
             <dict>
                 <key>frame</key>
-                <string>{{19,12},{16,16}}</string>
+                <string>{{2,229},{16,16}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -85,11 +98,11 @@
             <key>red_block</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{24,8}}</string>
+                <string>{{2,132},{24,8}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{24,8}}</string>
                 <key>sourceSize</key>
@@ -98,7 +111,7 @@
             <key>speedboost</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,28},{17,15}}</string>
+                <string>{{2,210},{17,15}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -116,9 +129,9 @@
             <key>realTextureFileName</key>
             <string>TexturePackerFile.png</string>
             <key>size</key>
-            <string>{64,64}</string>
+            <string>{256,256}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:ae2f86e9c132548d25879755897e94ce$</string>
+            <string>$TexturePacker:SmartUpdate:899ddeeb3f16d55086ef935e5e5e8878$</string>
             <key>textureFileName</key>
             <string>TexturePackerFile.png</string>
         </dict>
