@@ -18,7 +18,7 @@
 
 -(id) initWithWorld:(b2World*)world position:(CGPoint)pos name:(NSString *)name
 {
-	if ((self = [super initWithShape:name inWord:world]))
+	if ((self = [super initWithShape:name inWorld:world]))
 	{
         // set the body position
         body->SetTransform([Helper toMeters:pos], 0.0f);

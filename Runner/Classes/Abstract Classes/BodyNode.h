@@ -26,11 +26,12 @@
 
 /**
  * Creates a new shape
- * @param shapeName: Name of the shape and sprite
+ * @param shapeName: Name of the shape
+ * @param frameName: Name of the sprite frame
  * @param inWorld: Pointer to the world object to add the sprite to
  * @return BodyNode object
  */
--(id) initWithShape:(NSString*)shapeName inWord:(b2World*)world;
+-(id) initWithShape:(NSString*)shapeName andFrameName:(NSString*)frameName inWorld:(b2World*)world;
 
 /**
  * Changes the body's shape
@@ -39,5 +40,12 @@
  * @param shapeName name of the shape to set
  */
 -(void) setBodyShape:(NSString*)shapeName;
+
+/*
+Creates a body for you to use and define a shape with
+*/
+ 
+-(id) initWithWorld:(b2World*)world;
+
 
 @end

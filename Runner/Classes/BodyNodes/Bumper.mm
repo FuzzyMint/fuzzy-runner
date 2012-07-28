@@ -15,7 +15,7 @@
 
 -(id) initWithWorld:(b2World*)world position:(CGPoint)pos
 {
-	if ((self = [super initWithShape:@"bumper" inWord:world]))
+	if ((self = [super initWithShape:@"bumper" inWorld:world]))
 	{
         // set the body position
         body->SetTransform([Helper toMeters:pos], 0.0f);

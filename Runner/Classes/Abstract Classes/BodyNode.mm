@@ -15,15 +15,23 @@
 
 @synthesize body;
 
--(id) initWithShape:(NSString*)shapeName inWord:(b2World*)world
+-(id) initWithShape:(NSString*)shapeName andFrameName:(NSString*)frameName inWorld:(b2World*)world
 {
     NSAssert(world != NULL, @"world is null!");
     NSAssert(shapeName != nil, @"name is nil!");
-
-    // init the sprite itself with the given shape name
-    self = [super initWithSpriteFrameName:shapeName];
+    
+    CCSpriteFrameCache *frameCache = [CCSpriteFrameCache sharedSpriteFrameCache];
+    CCSpriteFrame *frame = [frameCache spriteFrameByName:frameName];
+    //Change to sprite by frame name
+    self = [super initWithSpriteFrame:frame];
+    
+    
     if (self)
     {        
+        
+		//
+        [self setDisplayFrame:frame];
+
         // create the body
         b2BodyDef bodyDef;
         body = world->CreateBody(&bodyDef);
@@ -31,6 +39,28 @@
         
         // set the shape
         [self setBodyShape:shapeName];
+    }
+    return self;
+}
+
+-(id) initWithWorld:(b2World*)world
+{
+    NSAssert(world != NULL, @"world is null!");
+    //NSAssert(frameName != nil, @"name is nil!");
+    
+    //CCSpriteFrameCache *frameCache = [CCSpriteFrameCache sharedSpriteFrameCache];
+   // CCSpriteFrame *frame = [frameCache spriteFrameByName:frameName];
+   // self = [super initWithSpriteFrame:frame];
+    
+    self = [super init];
+    
+    if (self)
+    {        
+        // create the body
+        b2BodyDef bodyDef;
+        body = world->CreateBody(&bodyDef);
+        body->SetUserData(self);
+ 
     }
     return self;
 }

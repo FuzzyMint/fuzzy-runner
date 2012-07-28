@@ -20,4 +20,4 @@
 // The value must be divided by 2.0 (multiplied with 0.5) because the shapes 
 // we used to create the polygons are in highres (Retina display) and 
 // cocos2d always uses lowres "points"
-#define PTM_RATIO ([[GB2ShapeCache sharedShapeCache] ptmRatio] * 0.5f)
+#define PTM_RATIO ([[GB2ShapeCache sharedShapeCache] ptmRatio] * 0.50f)

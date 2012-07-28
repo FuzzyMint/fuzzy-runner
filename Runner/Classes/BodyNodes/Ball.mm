@@ -24,7 +24,7 @@
 
 -(id) initWithWorld:(b2World*)world
 {
-	if ((self = [super initWithShape:@"ball" inWord:world]))
+	if ((self = [super initWithShape:@"ball" inWorld:world]))
 	{
         // set the parameters
         body->SetType(b2_dynamicBody);

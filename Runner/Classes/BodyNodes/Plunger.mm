@@ -18,7 +18,7 @@
 
 -(id) initWithWorld:(b2World*)world
 {
-	if ((self = [super initWithShape:@"plunger" inWord:world]))
+	if ((self = [super initWithShape:@"plunger" inWorld:world]))
 	{
 		CGSize screenSize = [[CCDirector sharedDirector] winSize];
 		CGPoint plungerPos = CGPointMake(screenSize.width - 13, -32);

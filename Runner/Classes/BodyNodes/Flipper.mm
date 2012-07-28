@@ -21,7 +21,7 @@
 {
     NSString* name = (flipperType == kFlipperLeft) ? @"flipper-left" : @"flipper-right";
     
-	if ((self = [super initWithShape:name inWord:world]))
+	if ((self = [super initWithShape:name inWorld:world]))
 	{
 		type = flipperType;
 		

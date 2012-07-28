@@ -15,6 +15,7 @@
 #import "Bumper.h"
 #import "Ball.h"
 #import "Plunger.h"
+#import "Player.h"
 
 @implementation TableSetup
 
@@ -26,7 +27,7 @@
 
 -(id) initTableWithWorld:(b2World*)world
 {
-	if ((self = [super initWithFile:@"pinball.pvr.ccz" capacity:5]))
+	if ((self = [super initWithFile:@"TexturePackerFile.plist" capacity:5]))
 	{		
         /*
         // add the table blocks
@@ -57,9 +58,10 @@
 		[self addBumperAt:ccp(27, 244) inWorld:world];*/
 
         // Add ball object
-		Ball* ball = [Ball ballWithWorld:world];
-		[self addChild:ball z:-1];
-		
+		//Player* player = [Player playerWithWorld:world];
+		//[self addChild:player z:-1];
+        
+        
         /*
         // Add flippers
         Flipper *left = [Flipper flipperWithWorld:world flipperType:kFlipperLeft];
