@@ -13,6 +13,8 @@
 
 @implementation Player
 
+@synthesize delegate = _delegate;
+
 -(id) initWithWorld:(b2World*)world
 {
 	if ((self = [super initWithShape:@"player-run-1" andFrameName:@"player_run_1" inWorld:world]))
@@ -24,7 +26,7 @@
         // enable continuous collision detection
         body->SetBullet(true);
         
-        body->SetGravityScale(2.0);
+        body->SetGravityScale(3.0);
 
         //body->SetLinearVelocity(b2Vec2(4.0,0));
         [self applyRunForce];
@@ -73,16 +75,18 @@
         [self applyJumpForce];  
     }
     
-	if (self.position.y < -(self.contentSize.height * 10))
+	if (self.body->GetPosition().y < -(self.contentSize.height * 2 / PTM_RATIO))
 	{
 		// restart at a random position
 		[self setBallStartPosition];
+        //selfdelegate
 	}
+    
 }
 
 - (void)applyRunForce
 {
-	body->ApplyForce(b2Vec2(1.0,0), body->GetWorldCenter());
+	//body->ApplyForce(b2Vec2(1.0,0), body->GetWorldCenter());
 }
 
 - (void)applyJumpForce

@@ -8,6 +8,12 @@
 
 #import "BodyNode.h"
 
+@protocol PlayerProtocol <NSObject>
+
+-(void) playerDidDie;
+
+@end
+
 @interface Player : BodyNode <CCTargetedTouchDelegate>
 {
     bool isTouchingGround;
@@ -20,5 +26,7 @@
  * @param world world to add the ball to
  */
 +(id) playerWithWorld:(b2World*)world;
+
+@property (nonatomic, strong) id<PlayerProtocol> delegate;
 
 @end

@@ -26,6 +26,7 @@
 #import "Platform.h"
 
 @interface GameplayLayer (PrivateMethods)
+
 -(void) initBox2dWorld;
 -(void) enableBox2dDebugDrawing;
 @end
@@ -70,16 +71,23 @@
         Player* player = [Player playerWithWorld:world];
 		[self addChild:player z:-1];
         
-        Platform* platform = [Platform platformWithWorld:world position:ccp(-260, 80)];
+        Platform* platform = [Platform platformWithWorld:world position:ccp(0, 80)];
+        Platform* platform1 = [Platform platformWithWorld:world position:ccp(0, 80)];
+        Platform* platform2 = [Platform platformWithWorld:world position:ccp(0, 80)];
+
         [self addChild:platform];
+        [self addChild:platform1];
+        [self addChild:platform2];
         
-        //[self addChild:[Platform platformWithWorld:world position:ccp(1200, 80)]];
+//        platforms = [[CCArray alloc] initWithCapacity:3];
+//        [platforms addObject:platform];
+//        [platforms addObject:platform1];
+//        [platforms addObject:platform2];
+        
+        //[self scheduleOnce:@selector(movePlatforms) delay:3];
 
         
-        //[self addChild:[Platforms setupPlatformsWithWorld:world] z:0];
-        
-		//TableSetup* tableSetup = [TableSetup setupTableWithWorld:world];
-		//[self addChild:tableSetup z:-1];
+        self.isTouchEnabled = YES;
 		
 		[self scheduleUpdate];
 	}
@@ -153,6 +161,14 @@
                     velocityIterations, positionIterations);        
     }
 }
+
+/*- (void)movePlatforms {
+    [self unschedule:_cmd];
+    Platform* plat;
+    CCARRAY_FOREACH(platforms, plat){
+        plat.body->SetActive(YES);
+    }
+}*/
 
 #ifdef DEBUG
 -(void) draw

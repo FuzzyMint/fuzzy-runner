@@ -21,6 +21,8 @@
 	ContactListener* contactListener;
 	
 	GLESDebugDraw* debugDraw;
+    
+    CCArray* platforms;
 }
 
 +(id) scene;

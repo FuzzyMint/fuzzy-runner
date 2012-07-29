@@ -13,6 +13,7 @@
 + (id) platformWithWorld:(b2World*)world position:(CGPoint)pos;
 
 @property (nonatomic, readonly) CGFloat width;
+@property (nonatomic, readonly) CGFloat height;
 
 @end
 
